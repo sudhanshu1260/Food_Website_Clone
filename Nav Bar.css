@@ -1,0 +1,311 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+h1{ 
+    margin: 26px;
+    color: blueviolet;
+    font-size: 30px;
+    margin-right: 200px;
+}
+
+h1::first-letter{
+    font-size: 40px;
+
+}
+span{
+    color: orange;
+}
+
+
+nav{
+    background-color:white;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    
+}
+
+nav input{
+    width: 400px;
+    height: 40px;
+    border-radius: 10px;
+    background: #eeeef0;
+    
+}
+
+nav input:hover{
+    background-color: white;
+}
+
+nav div{
+    justify-content: right;
+    
+    margin-left:20px;
+    justify-content: space-between;
+    align-items:center ;
+
+}
+
+
+
+
+nav div a{
+    
+    margin: 75px;
+    padding: 0px;
+    font-size: 20px;
+    font-weight: bolder;
+    text-decoration: none;
+}
+nav div a:hover{
+    color:orange;
+    
+}
+
+#line{
+    background: rgb(75, 75, 75);
+    width: 100%;
+    height: 1px;
+}
+
+
+#head{
+    background-image: linear-gradient(white 10%, #c2b0fa );
+    height: 50vh;
+    width: 100%;
+    border-radius:0px 0px 20px 20px ;
+}
+#head div{
+    display: flex;
+    position: absolute;
+} 
+
+#head div h1{
+    padding: 100px;
+    color: black;
+    -webkit-font-smoothing: antialiased;
+    font-size: 45px;
+
+
+}
+
+#head div img{
+    margin-left: 390px;
+    width: 600px;
+    height: 400px;
+}
+
+.line{
+   background: orange;
+   margin-top: 280px;
+   margin-left: 100px;
+   width: 250px;
+   height: 3px;
+   border-radius: 50%/100px 100px 0 0;
+}
+
+ h2{
+    margin: 50px;
+    margin-left: 100px;
+   
+}
+.carousel-cell img{
+    margin-left: 10px;
+    padding-left: 230px;
+    border-radius: 20px;
+    width: 150px;
+    height: 150px;
+    
+
+}
+
+.carousel-cell a{
+    font-size: 15px;
+    font-weight: bold;
+    margin-left: 10px;
+    padding-left: 280px;
+    color: black;
+   
+}
+
+.carousel-cell a:hover{
+    font-size:18px ;
+    color: orange;
+}
+
+.card{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+    padding: 10px;
+}
+
+#line{
+    background-color: rgb(244, 244, 244);
+    width: 80%;
+    height: 1px;
+    margin-left: 10%;
+    margin-top: 80px;
+}
+
+.food{
+    margin-top: 5px;
+    width:30%;
+    height:450px ;
+    
+}
+
+.food img{
+    height: 350px;
+    width: 430px;
+    border-radius: 15px;
+}
+
+
+
+.food h3{
+   margin: 10px;
+   padding-bottom: 10px;
+}
+
+.food h3 a{
+    border-radius: 10px;
+    margin-left: 150px;
+    padding: 12px;
+    background-color: rgb(245, 102, 48);
+    color: white;
+}
+
+.food h3 a:hover{
+    color: #3b00ec;
+}
+
+#Buttan{
+    border:1px solid #eeeef0;
+    padding: 20px;
+    height: 30px;
+    width: 200px;
+    font-size: 20px;
+    font-weight: bolder;
+    border-radius: 15px;
+    text-align: center;
+   
+    margin-left: 40%;
+    margin-top: 50px;
+}
+#Buttan a{
+    color: black;
+
+}
+
+.AboutFood div{
+    border: 2px solid rgb(129, 129, 129);
+     margin-left: 5%;
+     margin-right: 5%;
+     width: 90%;
+     min-height: 150px;
+     border-radius: 20px;
+}
+
+.AboutFood div h2{
+    margin: 2.5%;
+    color: rgb(129,129,129);
+}
+
+.AboutFood div p{
+    margin: 2.5%;
+    color: black;
+    font-size: 16px;
+    
+}
+
+.AboutFood div p span{
+    color: black;
+}
+
+#myBtn{
+    margin: 2.5%;
+    color: orange;
+    font-weight: bolder;
+    padding:15px;
+    border-radius: 10px;
+}
+
+
+
+
+.place{
+   
+    margin: 5%;
+    
+
+}
+
+.place h2{
+    margin: 0;
+    margin-left: 25px;
+    
+}
+.place div{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.place div a{
+    border:1px solid  #eeeef0;
+    
+    padding: 20px;
+    height: 10px;
+    width: 700px;
+    color: black;
+    margin: 20px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+
+.Apps{
+    display: flex;
+    background-color: #F0F0F5;
+    width: 99.5%;
+    height: 100px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.Apps img{
+    width: 300px;
+    height: 150px;
+    padding-bottom: 70px;
+}
+footer{
+    display: flex;
+    background-color: black;
+    height: 50vh;
+    width: 94%;
+    padding: 40px;
+    justify-content: space-evenly;
+   
+}
+
+footer h3{
+    margin: 10px;
+    
+    color: white;
+}
+footer p{
+    margin: 10px;
+    color: rgb(211, 207, 207);
+    
+}
+
+footer a{
+    margin: 10px;
+    color: rgb(211, 207, 207);
+    
+}
